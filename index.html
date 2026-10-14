@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Warranty Claim Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Warranty Claim Tracker</h1>
+
+    <form id="claimForm">
+
+        <input type="text" id="name" placeholder="Claimant Name">
+
+        <input type="email" id="email" placeholder="Email">
+
+        <input type="text" id="productCode" placeholder="Product Code">
+
+        <select id="category">
+            <option value="">Select Category</option>
+            <option value="Hardware">Hardware</option>
+            <option value="Software">Software</option>
+            <option value="Accessories">Accessories</option>
+        </select>
+
+        <textarea
+            id="description"
+            placeholder="Claim Description">
+        </textarea>
+
+        <button type="submit">Submit Claim</button>
+
+    </form>
+
+    <h3>Status Message</h3>
+    <div id="message"></div>
+
+    <h3>Filter Claims</h3>
+
+    <select id="filter">
+        <option value="All">All</option>
+        <option value="Hardware">Hardware</option>
+        <option value="Software">Software</option>
+        <option value="Accessories">Accessories</option>
+        <option value="Pending">Pending</option>
+        <option value="Resolved">Resolved</option>
+    </select>
+
+    <h3>Claim Records</h3>
+    <div id="claimList"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
