@@ -20,13 +20,13 @@ textarea{
 button{
     padding:10px;
     background:#eb2539;
-    color:white;
+    color:rgb(255, 255, 255);
     border:none;
     cursor:pointer;
 }
 
 #message{
-    margin:10px 0;
+    margin:20px 0;
     font-weight:initial;
 }
 
