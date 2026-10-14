@@ -19,7 +19,7 @@ textarea{
 
 button{
     padding:10px;
-    background:#2563eb;
+    background:#eb2539;
     color:white;
     border:none;
     cursor:pointer;
@@ -27,11 +27,11 @@ button{
 
 #message{
     margin:10px 0;
-    font-weight:bold;
+    font-weight:initial;
 }
 
 .claim-card{
-    border:1px solid #ccc;
-    padding:10px;
+    border:1px solid #cccccc;
+    padding:20px;
     margin:10px 0;
 }
